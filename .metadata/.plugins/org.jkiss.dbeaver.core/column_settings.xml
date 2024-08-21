@@ -29,12 +29,12 @@
 		<column name="Create date" visible="true" order="2" width="159"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="10956"/>
-		<column name="#" visible="true" order="1" width="10871"/>
-		<column name="Type" visible="true" order="2" width="10953"/>
+		<column name="컬럼명" visible="true" order="0" width="10952"/>
+		<column name="#" visible="true" order="1" width="10867"/>
+		<column name="Type" visible="true" order="2" width="10949"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="10908"/>
-		<column name="디폴트" visible="true" order="4" width="10897"/>
-		<column name="Comment" visible="true" order="5" width="10917"/>
+		<column name="Not Null" visible="true" order="3" width="10904"/>
+		<column name="디폴트" visible="true" order="4" width="10893"/>
+		<column name="Comment" visible="true" order="5" width="10938"/>
 	</item>
 </items>
