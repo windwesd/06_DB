@@ -7,5 +7,5 @@ sample.database.canceled=true
 script.sql.delimiter.blank=ONLY_SEPARATOR
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1724198670430
+ui.auto.update.check.time=1724111703711
 ui.show.tip.of.the.day.on.startup=true
