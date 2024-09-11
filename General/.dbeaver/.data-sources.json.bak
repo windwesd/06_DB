@@ -81,13 +81,34 @@
 		"oracle_thin-19169c4ae5b-1fa09b9fc289b743": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
-			"name": "khj-1.xyz",
+			"name": "시험용 계정(TEST USER / TEST1234)",
 			"save-password": true,
 			"configuration": {
 				"host": "khj-1.xyz",
 				"port": "10000",
 				"database": "XE",
 				"url": "jdbc:oracle:thin:@//khj-1.xyz:10000/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\Oracle\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-191de79e20a-54ee28e946c56f36": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
 				"configurationType": "MANUAL",
 				"home": "C:\\Oracle\\dbhomeXE",
 				"type": "dev",

@@ -806,3 +806,1081 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)
 	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:648)
 	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:608)
 	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1459)
+!SESSION 2024-09-11 09:18:52.508 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\OWNER\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-09-11 09:18:57.969
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 09:19:07.356
+!MESSAGE Error accessing instance server: java.net.ConnectException
+
+!ENTRY org.eclipse.ui 4 0 2024-09-11 09:19:22.194
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.ui.controls.folders.ITabbedFolderContainer.switchFolder(String)" because "this.activeEditor" is null
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.lambda$6(EntityEditor.java:665)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:291)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:648)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:608)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1459)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 09:19:22.197
+!MESSAGE Event loop exception
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 09:19:22.197
+!MESSAGE Cannot invoke "org.jkiss.dbeaver.ui.controls.folders.ITabbedFolderContainer.switchFolder(String)" because "this.activeEditor" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.ui.controls.folders.ITabbedFolderContainer.switchFolder(String)" because "this.activeEditor" is null
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.lambda$6(EntityEditor.java:665)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:291)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:648)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:608)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1459)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 09:42:23.254
+!MESSAGE SQL Error [907] [42000]: ORA-00907: 누락된 우괄호
+
+
+Error position: line: 34 pos: 949
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 09:42:23.254
+!MESSAGE SQL Error [907] [42000]: ORA-00907: 누락된 우괄호
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 09:42:23.254
+!MESSAGE Error : 907, Position : 949, SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Original SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Error Message = ORA-00907: 누락된 우괄호
+
+!STACK 0
+Error : 907, Position : 949, SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Original SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Error Message = ORA-00907: 누락된 우괄호
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 09:42:41.659
+!MESSAGE SQL Error [907] [42000]: ORA-00907: 누락된 우괄호
+
+
+Error position: line: 34 pos: 949
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 09:42:41.659
+!MESSAGE SQL Error [907] [42000]: ORA-00907: 누락된 우괄호
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 09:42:41.659
+!MESSAGE Error : 907, Position : 949, SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT ("AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+);
+, Original SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT ("AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+);
+, Error Message = ORA-00907: 누락된 우괄호
+
+!STACK 0
+Error : 907, Position : 949, SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT ("AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+);
+, Original SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO")
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N'))
+	CONSTRAINT ("AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+);
+, Error Message = ORA-00907: 누락된 우괄호
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:11.023
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:11.023
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:15.471
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:15.471
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:18.274
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:18.274
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:21.589
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:21.589
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:24.200
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:24.200
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:26.946
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:26.946
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:26.999
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:26.999
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:36.353
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:36.353
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:37.643
+!MESSAGE org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-09-11 09:46:37.643
+!MESSAGE TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+!STACK 0
+org.jkiss.dbeaver.DBException: TABLE 'MEMBER' not found in schema 'SPRING_KHJ'
+	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:345)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.findTables(SQLContextInformer.java:338)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.lambda$0(SQLContextInformer.java:283)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContextInformer$TablesFinderJob.run(SQLContextInformer.java:281)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 09:48:52.618
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+Error position: line: 48 pos: 109
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 09:48:52.618
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 09:48:52.618
+!MESSAGE Error : 933, Position : 109, SQL = COMMENT ON COLUMN "MEMBER"."ENROLL_DATE"		  IS '가입일;
+COMMENT ON COLUMN "MEMBER"."MEMBER_DEL_FL" 		IS '탈퇴 여부(Y,N)';
+COMMENT ON COLUMN "MEMBER"."AUTHORITY"			  IS '권한(1:일반, 2:관리자)';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+, Original SQL = COMMENT ON COLUMN "MEMBER"."ENROLL_DATE"		  IS '가입일;
+COMMENT ON COLUMN "MEMBER"."MEMBER_DEL_FL" 		IS '탈퇴 여부(Y,N)';
+COMMENT ON COLUMN "MEMBER"."AUTHORITY"			  IS '권한(1:일반, 2:관리자)';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 109, SQL = COMMENT ON COLUMN "MEMBER"."ENROLL_DATE"		  IS '가입일;
+COMMENT ON COLUMN "MEMBER"."MEMBER_DEL_FL" 		IS '탈퇴 여부(Y,N)';
+COMMENT ON COLUMN "MEMBER"."AUTHORITY"			  IS '권한(1:일반, 2:관리자)';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+, Original SQL = COMMENT ON COLUMN "MEMBER"."ENROLL_DATE"		  IS '가입일;
+COMMENT ON COLUMN "MEMBER"."MEMBER_DEL_FL" 		IS '탈퇴 여부(Y,N)';
+COMMENT ON COLUMN "MEMBER"."AUTHORITY"			  IS '권한(1:일반, 2:관리자)';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:18.374
+!MESSAGE SQL Error [904] [42000]: ORA-00904: "MEMBER_ADDRESS": 부적합한 식별자
+
+
+Error position: line: 45 pos: 27
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:18.374
+!MESSAGE SQL Error [904] [42000]: ORA-00904: "MEMBER_ADDRESS": 부적합한 식별자
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:18.374
+!MESSAGE Error : 904, Position : 27, SQL = COMMENT ON COLUMN "MEMBER"."MEMBER_ADDRESS" 		IS '회원 주소', Original SQL = COMMENT ON COLUMN "MEMBER"."MEMBER_ADDRESS" 		IS '회원 주소', Error Message = ORA-00904: "MEMBER_ADDRESS": 부적합한 식별자
+
+!STACK 0
+Error : 904, Position : 27, SQL = COMMENT ON COLUMN "MEMBER"."MEMBER_ADDRESS" 		IS '회원 주소', Original SQL = COMMENT ON COLUMN "MEMBER"."MEMBER_ADDRESS" 		IS '회원 주소', Error Message = ORA-00904: "MEMBER_ADDRESS": 부적합한 식별자
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:37.040
+!MESSAGE SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+
+Error position: line: 23 pos: 511
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:37.040
+!MESSAGE SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:37.040
+!MESSAGE Error : 955, Position : 511, SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADDRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO"),
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N')),
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Original SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADDRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO"),
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N')),
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Error Message = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+!STACK 0
+Error : 955, Position : 511, SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADDRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO"),
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N')),
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Original SQL = /* 관리자 계정(sys) 접속 후 실행 */
+--ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+--
+---- 계정 생성
+--CREATE USER SPRING_KHJ IDENTIFIED BY SPRING1234;
+--
+---- 권한 부여
+--GRANT CONNECT, RESOURCE TO SPRING_KHJ;
+--
+---- 테이블 저장 공간 할당
+--ALTER USER SPRING_KHJ
+--DEFAULT TABLESPACE USERS
+--QUOTA 100M ON USERS;
+
+-----------------------------------------------------
+
+/* SPRING 계정 접속 후 테이블, 시퀀스 생성 */
+
+/* 회원("MEMBER") */
+CREATE TABLE "MEMBER"(
+	"MEMBER_NO" NUMBER,
+	"MEMBER_EMAIL"	 	VARCHAR2(50) NOT NULL,
+	"MEMBER_PW" 			VARCHAR2(100) NOT NULL,
+	"MEMBER_NICKNAME" NVARCHAR2(10) NOT NULL,
+	"MEMBER_TEL"			CHAR(11) NOT NULL,
+	"MEMBER_ADDRESS"		NVARCHAR2(150),
+	"PROFILE_IMG"			VARCHAR2(300),
+	"ENROLL_DATE"			DATE DEFAULT CURRENT_DATE,
+	"MEMBER_DEL_FL"		CHAR(1) DEFAULT 'N',
+	"AUTHORITY"				NUMBER DEFAULT 1,
+	
+	CONSTRAINT "MEMBER_PK" PRIMARY KEY("MEMBER_NO"),
+	CONSTRAINT "MEMBER_DEL_FL_CHK" CHECK("MEMBER_DEL_FL" IN ('Y', 'N')),
+	CONSTRAINT "AUTHORITY_CHK" CHECK("AUTHORITY" IN (1, 2))
+	
+), Error Message = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:53.806
+!MESSAGE SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+
+Error position: line: 53 pos: 51
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:53.806
+!MESSAGE SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 13:17:53.806
+!MESSAGE Error : 955, Position : 51, SQL = -- 회원 번호 시퀀스 생성
+CREATE SEQUENCE SEQ_MEMBER_NO NOCACHE, Original SQL = -- 회원 번호 시퀀스 생성
+CREATE SEQUENCE SEQ_MEMBER_NO NOCACHE, Error Message = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+!STACK 0
+Error : 955, Position : 51, SQL = -- 회원 번호 시퀀스 생성
+CREATE SEQUENCE SEQ_MEMBER_NO NOCACHE, Original SQL = -- 회원 번호 시퀀스 생성
+CREATE SEQUENCE SEQ_MEMBER_NO NOCACHE, Error Message = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 13:25:22.328
+!MESSAGE SQL Error [903] [42000]: ORA-00903: 테이블명이 부적합합니다
+
+
+Error position: line: 84 pos: 9
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 13:25:22.328
+!MESSAGE SQL Error [903] [42000]: ORA-00903: 테이블명이 부적합합니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-11 13:25:22.328
+!MESSAGE Error : 903, Position : 9, SQL = UPDATE 
+FROM "MEMBER_NO = 3"
+WHERE MEMBER_NO = 1, Original SQL = UPDATE 
+FROM "MEMBER_NO = 3"
+WHERE MEMBER_NO = 1, Error Message = ORA-00903: 테이블명이 부적합합니다
+
+!STACK 0
+Error : 903, Position : 9, SQL = UPDATE 
+FROM "MEMBER_NO = 3"
+WHERE MEMBER_NO = 1, Original SQL = UPDATE 
+FROM "MEMBER_NO = 3"
+WHERE MEMBER_NO = 1, Error Message = ORA-00903: 테이블명이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-11 13:25:30.654
+!MESSAGE SQL Error [903] [42000]: ORA-00903: 테이블명이 부적합합니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-11 13:25:30.654
+!MESSAGE Error : 903, Position : 9, SQL = UPDATE 
+FROM "MEMBER_NO"
+WHERE MEMBER_NO = 1, Original SQL = UPDATE 
+FROM "MEMBER_NO"
+WHERE MEMBER_NO = 1, Error Message = ORA-00903: 테이블명이 부적합합니다
+
+!STACK 0
+Error : 903, Position : 9, SQL = UPDATE 
+FROM "MEMBER_NO"
+WHERE MEMBER_NO = 1, Original SQL = UPDATE 
+FROM "MEMBER_NO"
+WHERE MEMBER_NO = 1, Error Message = ORA-00903: 테이블명이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

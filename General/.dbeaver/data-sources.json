@@ -98,6 +98,34 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"oracle_thin-191de79e20a-54ee28e946c56f36": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "SPRING_KHJ(SPRING1234)",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\Oracle\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			},
+			"filters": [
+				{
+					"type": "org.jkiss.dbeaver.ext.oracle.model.OracleSchema",
+					"enabled": true,
+					"include": ["SPRING_KHJ"]
+				}
+			]
 		}
 	},
 	"connection-types": {

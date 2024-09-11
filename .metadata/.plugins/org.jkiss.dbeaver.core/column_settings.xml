@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+	<item id="NodeList/DBNDatabaseObject">
+		<column name="이름" visible="true" order="0" width="138"/>
+	</item>
 	<item id="NodeList/OracleSchema">
 		<column name="Name" visible="true" order="0" width="223"/>
 	</item>
@@ -29,12 +32,12 @@
 		<column name="Create date" visible="true" order="2" width="159"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="10949"/>
-		<column name="#" visible="true" order="1" width="10837"/>
-		<column name="Type" visible="true" order="2" width="10935"/>
+		<column name="컬럼명" visible="true" order="0" width="10983"/>
+		<column name="#" visible="true" order="1" width="10849"/>
+		<column name="Type" visible="true" order="2" width="10950"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="10874"/>
-		<column name="디폴트" visible="true" order="4" width="10925"/>
-		<column name="Comment" visible="true" order="5" width="10979"/>
+		<column name="Not Null" visible="true" order="3" width="10886"/>
+		<column name="디폴트" visible="true" order="4" width="10937"/>
+		<column name="Comment" visible="true" order="5" width="10895"/>
 	</item>
 </items>
