@@ -31,6 +31,9 @@
 		<column name="Status" visible="true" order="1" width="100"/>
 		<column name="Create date" visible="true" order="2" width="159"/>
 	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="182"/>
+	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
 		<column name="컬럼명" visible="true" order="0" width="10983"/>
 		<column name="#" visible="true" order="1" width="10849"/>
