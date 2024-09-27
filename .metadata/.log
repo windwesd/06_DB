@@ -1989,3 +1989,904 @@ CUSTOMER_ADDRESS VARCHAR2(200) NOT NULL
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-13 11:34:18.072 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\OWNER\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:20.654
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:20.654
+!MESSAGE Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE MEMBER_NO = 4, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE MEMBER_NO = 4, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE MEMBER_NO = 4, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE MEMBER_NO = 4, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:43.115
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+Error position: line: 121 pos: 27
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:43.115
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:43.115
+!MESSAGE Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:52.937
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:12:52.937
+!MESSAGE Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO = 4"
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO = 4"
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO = 4"
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE
+FROM "MEMBER"
+WHERE "MEMBER_NO = 4"
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:13:26.154
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+Error position: line: 121 pos: 27
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:13:26.154
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-13 15:13:26.154
+!MESSAGE Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE *
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4 
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE *
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4 
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 27, SQL = SELECT *
+FROM "MEMBER"
+
+DELETE *
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4 
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+DELETE *
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4 
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:13:58.001
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:13:58.001
+!MESSAGE Error : 933, Position : 29, SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE INTO "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE INTO "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 29, SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE INTO "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE INTO "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:14:45.769
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:14:45.769
+!MESSAGE Error : 933, Position : 29, SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 29, SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Original SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE "MEMBER"
+FROM "MEMBER_NO" = 4
+
+
+
+
+
+
+
+
+
+
+, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-13 15:15:19.309
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-13 15:15:19.309
+!MESSAGE Error : 933, Position : 29, SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE 
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4, Original SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE 
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 29, SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE 
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4, Original SQL = SELECT *
+FROM "MEMBER"
+
+
+DELETE 
+FROM "MEMBER"
+WHERE "MEMBER_NO" = 4, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-23 11:14:22.483 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\OWNER\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.296
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.inlinesearch,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.296
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.298
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.rss,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.299
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.json.simple,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.451
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.451
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.508
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.547
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.548
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.579
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.615
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base.win,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.682
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.708
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.769
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.elevation.win32,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.802
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.803
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.icon.designer,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.875
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.887
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.900
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.938
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:49.953
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:50.030
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:50.045
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:50.078
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.designer.feature,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:50.079
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-09-23 11:14:50.128
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,2024.3.0.202409191846 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920.
+!SESSION 2024-09-25 14:17:28.469 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\OWNER\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-25 14:18:44.499
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+Error position: line: 131 pos: 17
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-25 14:18:44.499
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-09-25 14:18:44.499
+!MESSAGE Error : 933, Position : 17, SQL = DELETE "MEMBER"
+SET "MEMBER_NO" = 8, Original SQL = DELETE "MEMBER"
+SET "MEMBER_NO" = 8, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 17, SQL = DELETE "MEMBER"
+SET "MEMBER_NO" = 8, Original SQL = DELETE "MEMBER"
+SET "MEMBER_NO" = 8, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-26 10:32:46.517 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\OWNER\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-26 16:08:40.771
+!MESSAGE SQL Error [901] [42000]: ORA-00901: CREATE 명령어가 부적합합니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-26 16:08:40.771
+!MESSAGE Error : 901, Position : 51, SQL = -- 파일 업로드 테스트용 테이블
+CREATE TB_FILE_TEST(
+	FILE_NO NUMBER PRIMARY KEY,
+	FILE_ORIGINAL_NAME VARCHAR2(300),
+	FILE_RENAME VARCHAR2(300),
+	FILE_PATH VARCHAR2(300),
+	UPDATE_DATE DATE DEFAULT CURRENT_DATE
+), Original SQL = -- 파일 업로드 테스트용 테이블
+CREATE TB_FILE_TEST(
+	FILE_NO NUMBER PRIMARY KEY,
+	FILE_ORIGINAL_NAME VARCHAR2(300),
+	FILE_RENAME VARCHAR2(300),
+	FILE_PATH VARCHAR2(300),
+	UPDATE_DATE DATE DEFAULT CURRENT_DATE
+), Error Message = ORA-00901: CREATE 명령어가 부적합합니다
+
+!STACK 0
+Error : 901, Position : 51, SQL = -- 파일 업로드 테스트용 테이블
+CREATE TB_FILE_TEST(
+	FILE_NO NUMBER PRIMARY KEY,
+	FILE_ORIGINAL_NAME VARCHAR2(300),
+	FILE_RENAME VARCHAR2(300),
+	FILE_PATH VARCHAR2(300),
+	UPDATE_DATE DATE DEFAULT CURRENT_DATE
+), Original SQL = -- 파일 업로드 테스트용 테이블
+CREATE TB_FILE_TEST(
+	FILE_NO NUMBER PRIMARY KEY,
+	FILE_ORIGINAL_NAME VARCHAR2(300),
+	FILE_RENAME VARCHAR2(300),
+	FILE_PATH VARCHAR2(300),
+	UPDATE_DATE DATE DEFAULT CURRENT_DATE
+), Error Message = ORA-00901: CREATE 명령어가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-09-26 16:09:59.393
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-09-26 16:09:59.393
+!MESSAGE Error : 933, Position : 28, SQL = CREATE SEQUENCE SEQ_FILE_NO NOCAHS, Original SQL = CREATE SEQUENCE SEQ_FILE_NO NOCAHS, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 28, SQL = CREATE SEQUENCE SEQ_FILE_NO NOCAHS, Original SQL = CREATE SEQUENCE SEQ_FILE_NO NOCAHS, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

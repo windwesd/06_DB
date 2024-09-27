@@ -1,30 +1,30 @@
-2024-09-12 10:45:58.385 - DBeaver 24.1.4.202408041450 is starting
-2024-09-12 10:45:58.386 - OS: Windows 11 10.0 (amd64)
-2024-09-12 10:45:58.386 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-09-12 10:45:58.387 - Install path: 'C:\Program Files\DBeaver'
-2024-09-12 10:45:58.387 - Instance path: 'file:/C:/workspace/06_DB/'
-2024-09-12 10:45:58.388 - Memory available 64Mb/1024Mb
-2024-09-12 10:45:58.407 - Create display
-> Start DevStyle Theming - Webicons [com.genuitec.eclipse.webicons 2024.2.0.202406171634]
+2024-09-26 10:32:51.433 - DBeaver 24.1.4.202408041450 is starting
+2024-09-26 10:32:51.434 - OS: Windows 11 10.0 (amd64)
+2024-09-26 10:32:51.434 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-09-26 10:32:51.435 - Install path: 'C:\Program Files\DBeaver'
+2024-09-26 10:32:51.435 - Instance path: 'file:/C:/workspace/06_DB/'
+2024-09-26 10:32:51.436 - Memory available 64Mb/1024Mb
+2024-09-26 10:32:51.449 - Create display
+> Start DevStyle Theming - Webicons [com.genuitec.eclipse.webicons 2024.3.0.202409191846]
 > Start JFace [org.eclipse.jface 3.34.0.v20240502-1134]
-2024-09-12 10:45:59.189 - Initialize desktop platform...
-2024-09-12 10:45:59.354 - BounceCastle bundle found. Use JCE provider BC
+2024-09-26 10:32:52.025 - Initialize desktop platform...
+2024-09-26 10:32:52.177 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.400.v20240426-1040]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.17.400.v20240524-2010]
 > Start Client [com.genuitec.eclipse.codetogether.ui.client 2024.3.1.202407230323]
-> Start Workspace [com.genuitec.eclipse.startup.workspace 2024.2.0.202406171634]
-> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.core.common.platform 2024.2.0.202406171634]
-> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.ui.common.platform 2024.2.0.202406171634]
-> Start DevStyle Theming - Color Theme API [com.genuitec.eclipsecolortheme.api 2024.2.0.202406171634]
-> Start Evergreen Updates [com.genuitec.eclipse.webclipse.evergreen 2024.2.0.202406171634]
+> Start Workspace [com.genuitec.eclipse.startup.workspace 2024.3.0.202409191846]
+> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.core.common.platform 2024.3.0.202409191846]
+> Start Webclipse Common Core Platform Utilities [com.genuitec.eclipse.ui.common.platform 2024.3.0.202409191846]
+> Start DevStyle Theming - Color Theme API [com.genuitec.eclipsecolortheme.api 2024.3.0.202409191846]
+> Start Evergreen Updates [com.genuitec.eclipse.webclipse.evergreen 2024.3.0.202409191846]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.200.v20240513-1323]
 > Start Team Support Core [org.eclipse.team.core 3.10.400.v20240413-1529]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.136.202408041450]
-2024-09-12 10:46:17.254 - Initialize base platform...
-2024-09-12 10:46:17.280 - Platform initialized (18091ms)
+2024-09-26 10:33:02.832 - Initialize base platform...
+2024-09-26 10:33:02.854 - Platform initialized (10829ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.136.202408041450]
-2024-09-12 10:46:17.344 - Starting instance server at http://localhost:58708
-2024-09-12 10:46:17.368 - Run workbench
+2024-09-26 10:33:02.912 - Starting instance server at http://localhost:63405
+2024-09-26 10:33:02.935 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.400.v20240425-0840]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
@@ -43,31 +43,31 @@ To disable processing of 'javax' annotations entirely, set the VM property: -Dec
 > Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.400.v20240418-1547]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
-> Start Startup [com.genuitec.eclipse.startup 2024.2.0.202406171634]
-> Start DevStyle Theming - Scrollbar [com.genuitec.eclipse.theming.scrollbar 2024.2.0.202406171634]
+> Start Startup [com.genuitec.eclipse.startup 2024.3.0.202409191846]
+> Start DevStyle Theming - Scrollbar [com.genuitec.eclipse.theming.scrollbar 2024.3.0.202409191846]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.16.0.202405290843]
-> Start DevStyle Theming - Base [com.genuitec.eclipse.theming.base 2024.2.0.202406171634]
-> Start DevStyle Theming - UI [com.genuitec.eclipse.theming.ui 2024.2.0.202406171634]
+> Start DevStyle Theming - Base [com.genuitec.eclipse.theming.base 2024.3.0.202409191846]
+> Start DevStyle Theming - UI [com.genuitec.eclipse.theming.ui 2024.3.0.202409191846]
 > Start Default Text Editor [org.eclipse.ui.editors 3.17.300.v20240524-2010]
-2024-09-12 10:46:19.980 - Configure workbench window
+2024-09-26 10:33:05.377 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.126.202408041450]
-2024-09-12 10:46:20.139 - Total database drivers: 119 (119)
+2024-09-26 10:33:05.529 - Total database drivers: 119 (119)
 > Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
-2024-09-12 10:46:20.226 - Create actions
-2024-09-12 10:46:20.233 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-09-12 10:46:20.234 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-09-12 10:46:20.234 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-09-12 10:46:20.235 - Create workbench actions
-> Start Enhanced Explorer JDT Support [com.genuitec.eclipse.meexplorer.jdt 2024.2.0.202406171634]
-> Start Enhanced Explorer [com.genuitec.eclipse.meexplorer 2024.2.0.202406171634]
+2024-09-26 10:33:05.614 - Create actions
+2024-09-26 10:33:05.619 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-09-26 10:33:05.619 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-09-26 10:33:05.621 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-09-26 10:33:05.621 - Create workbench actions
+> Start Enhanced Explorer JDT Support [com.genuitec.eclipse.meexplorer.jdt 2024.3.0.202409191846]
+> Start Enhanced Explorer [com.genuitec.eclipse.meexplorer 2024.3.0.202409191846]
 > Start Common Navigator View [org.eclipse.ui.navigator 3.12.400.v20240424-0956]
 > Start Eclipse Compiler for Java(TM) [org.eclipse.jdt.core.compiler.batch 3.38.0.v20240524-2033]
 > Start Java Development Tools Core [org.eclipse.jdt.core 3.38.0.v20240528-0618]
 > Start Java Code Manipulation Functionality [org.eclipse.jdt.core.manipulation 1.21.100.v20240524-2038]
 > Start Java Development Tools UI [org.eclipse.jdt.ui 3.32.100.v20240524-2038]
 > Start Navigator Workbench Components [org.eclipse.ui.navigator.resources 3.9.300.v20240506-0929]
-2024-09-12 10:46:21.318 - Initialize workbench window
-2024-09-12 10:46:21.324 - Finish initialization
+2024-09-26 10:33:06.695 - Initialize workbench window
+2024-09-26 10:33:06.700 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.136.202408041450]
 Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.136.202408041450]
@@ -83,15 +83,15 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
 > Start Browser Support [org.eclipse.ui.browser 3.8.300.v20240524-2010]
 > Start CodeTogether Core [com.genuitec.eclipse.codetogether.core 2024.3.1.202407230323]
+> Start Java Development Tools Launching Support [org.eclipse.jdt.launching 3.22.0.v20240424-1830]
 > Start Equinox Provisioning Core [org.eclipse.equinox.p2.core 2.12.0.v20240515-1919]
 > Start Equinox Provisioning Engine [org.eclipse.equinox.p2.engine 2.10.200.v20240425-1316]
 > Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.9.100.v20240416-0654]
+> Start Team Support UI [org.eclipse.team.ui 3.10.400.v20240416-0654]
 > Start Equinox Provisioning Metadata Repository [org.eclipse.equinox.p2.metadata.repository 1.5.400.v20240515-1919]
 > Start Equinox Provisioning Repository [org.eclipse.equinox.p2.repository 2.9.100.v20240511-1722]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.173.202408041450]
 > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.142.202408041450]
-> Start Java Development Tools Launching Support [org.eclipse.jdt.launching 3.22.0.v20240424-1830]
-> Start Team Support UI [org.eclipse.team.ui 3.10.400.v20240416-0654]
 > Start Language Server Protocol client for CodeTogether [com.genuitec.eclipse.lsp4e 2024.3.1.202407230323]
 > Start Equinox Provisioning UI Support [org.eclipse.equinox.p2.ui 2.8.400.v20240511-1722]
 > Start Equinox Provisioning Operations API [org.eclipse.equinox.p2.operations 2.7.400.v20240425-0751]
@@ -101,36 +101,41 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.96.202408041450]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.133.202408041450]
 > Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.9.202408041450]
-9월 12, 2024 10:46:24 오전 org.glassfish.grizzly.http.server.NetworkListener start
-정보: Started listener bound to [localhost:1595]
-9월 12, 2024 10:46:24 오전 org.glassfish.grizzly.http.server.HttpServer start
-정보: [HttpServer] Started.
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.127.202408041450]
+9월 26, 2024 10:33:10 오전 org.glassfish.grizzly.http.server.NetworkListener start
+정보: Started listener bound to [localhost:1595]
+9월 26, 2024 10:33:10 오전 org.glassfish.grizzly.http.server.HttpServer start
+정보: [HttpServer] Started.
 > Start Core Variables [org.eclipse.core.variables 3.6.400.v20240413-1529]
 > Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.31.202408041450]
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.114.202408041450]
 > Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.123.202408041450]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.114.202408041450]
-2024-09-12 10:46:25.981 - Connect with 'SPRING_KHJ(SPRING1234)' (oracle_thin-191de79e20a-54ee28e946c56f36)
 > Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.29.202408041450]
 > Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.221.202408041450]
-2024-09-12 10:46:26.021 - Execution context opened (SPRING_KHJ(SPRING1234); Main; 0)
-2024-09-12 10:46:26.760 - Open [https://dbeaver.io/product/version.xml]
-2024-09-12 10:46:26.762 - Execution context opened (SPRING_KHJ(SPRING1234); Metadata; 1)
-2024-09-12 10:46:26.933 - Connected (oracle_thin-191de79e20a-54ee28e946c56f36, Oracle JDBC driver [23.2.0.0.0])
-2024-09-12 10:46:26.939 - Execution context opened (SPRING_KHJ(SPRING1234); SQLEditor <Script-3.sql>; 2)
+2024-09-26 10:33:11.564 - Connect with 'SPRING_KHJ(SPRING1234)' (oracle_thin-191de79e20a-54ee28e946c56f36)
+2024-09-26 10:33:11.603 - Execution context opened (SPRING_KHJ(SPRING1234); Main; 0)
+2024-09-26 10:33:11.810 - Open [https://dbeaver.io/product/version.xml]
+2024-09-26 10:33:12.271 - Execution context opened (SPRING_KHJ(SPRING1234); Metadata; 1)
+2024-09-26 10:33:12.465 - Connected (oracle_thin-191de79e20a-54ee28e946c56f36, Oracle JDBC driver [23.2.0.0.0])
+2024-09-26 10:33:12.474 - Execution context opened (SPRING_KHJ(SPRING1234); SQLEditor <Script-3.sql>; 2)
+> Start EditorMinimap [com.genuitec.eclipse.inlinesearch 2024.3.0.202409191846]
+> Start Search Support Core [org.eclipse.search.core 3.16.200.v20240502-1134]
+2024-09-26 11:08:31.957 - End idle 1 transactions for oracle_thin-191de79e20a-54ee28e946c56f36
+2024-09-26 15:31:09.393 - Execution context closed (SPRING_KHJ(SPRING1234), 0)
+2024-09-26 15:31:09.421 - Execution context closed (SPRING_KHJ(SPRING1234), 1)
+2024-09-26 15:31:09.437 - Execution context closed (SPRING_KHJ(SPRING1234), 2)
+2024-09-26 15:31:09.438 - Disconnected (oracle_thin-191de79e20a-54ee28e946c56f36)
+2024-09-26 16:08:39.728 - Connect with 'SPRING_KHJ(SPRING1234)' (oracle_thin-191de79e20a-54ee28e946c56f36)
+2024-09-26 16:08:39.728 - Execution context opened (SPRING_KHJ(SPRING1234); Main; 3)
+2024-09-26 16:08:39.906 - Execution context opened (SPRING_KHJ(SPRING1234); Metadata; 4)
+2024-09-26 16:08:40.005 - Connected (oracle_thin-191de79e20a-54ee28e946c56f36, Oracle JDBC driver [23.2.0.0.0])
+2024-09-26 16:08:40.007 - Execution context opened (SPRING_KHJ(SPRING1234); SQLEditor <Script-3.sql>; 5)
 > Start Refactoring Core [org.eclipse.ltk.core.refactoring 3.14.400.v20240321-1245]
-2024-09-12 10:56:55.906 - Connect with 'KH_KHJ(KH1234)' (oracle_thin-1914e875d2c-497537ff5ab424e1)
-2024-09-12 10:56:55.907 - Execution context opened (KH_KHJ(KH1234); Main; 3)
-2024-09-12 10:56:55.954 - Execution context opened (KH_KHJ(KH1234); Metadata; 4)
-2024-09-12 10:56:55.959 - Execution context opened (KH_KHJ(KH1234); SQLEditor <Script-4.sql>; 5)
-2024-09-12 10:56:56.014 - Connected (oracle_thin-1914e875d2c-497537ff5ab424e1, Oracle JDBC driver [23.2.0.0.0])
-2024-09-12 10:57:21.079 - SQL Error [900] [42000]: ORA-00900: SQL 문이 부적합합니다
+2024-09-26 16:08:40.760 - SQL Error [901] [42000]: ORA-00901: CREATE 명령어가 부적합합니다
 
-
-Error position: line: 1
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [900] [42000]: ORA-00900: SQL 문이 부적합합니다
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [901] [42000]: ORA-00901: CREATE 명령어가 부적합합니다
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
@@ -145,7 +150,7 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [900] [42000]: ORA-00900: 
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00900: SQL 문이 부적합합니다
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00901: CREATE 명령어가 부적합합니다
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
@@ -163,38 +168,65 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00900: SQL 문이 부적합합�
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
-Caused by: Error : 900, Position : 0, SQL = ////////// DB //////////
-
-/***** [ 테이블 ] *****/
-
-CREATE TABLE CUSTOMER(
-
-CUSTOMER_NO NUMBER PRIMARY KEY,
-
-CUSTOMER_NAME VARCHAR2(60) NOT NULL,
-
-CUSTOMER_TEL VARCHAR2(30) NOT NULL,
-
-CUSTOMER_ADDRESS VARCHAR2(200) NOT NULL
-
-), Original SQL = ////////// DB //////////
-
-/***** [ 테이블 ] *****/
-
-CREATE TABLE CUSTOMER(
-
-CUSTOMER_NO NUMBER PRIMARY KEY,
-
-CUSTOMER_NAME VARCHAR2(60) NOT NULL,
-
-CUSTOMER_TEL VARCHAR2(30) NOT NULL,
-
-CUSTOMER_ADDRESS VARCHAR2(200) NOT NULL
-
-), Error Message = ORA-00900: SQL 문이 부적합합니다
+Caused by: Error : 901, Position : 51, SQL = -- 파일 업로드 테스트용 테이블
+CREATE TB_FILE_TEST(
+	FILE_NO NUMBER PRIMARY KEY,
+	FILE_ORIGINAL_NAME VARCHAR2(300),
+	FILE_RENAME VARCHAR2(300),
+	FILE_PATH VARCHAR2(300),
+	UPDATE_DATE DATE DEFAULT CURRENT_DATE
+), Original SQL = -- 파일 업로드 테스트용 테이블
+CREATE TB_FILE_TEST(
+	FILE_NO NUMBER PRIMARY KEY,
+	FILE_ORIGINAL_NAME VARCHAR2(300),
+	FILE_RENAME VARCHAR2(300),
+	FILE_PATH VARCHAR2(300),
+	UPDATE_DATE DATE DEFAULT CURRENT_DATE
+), Error Message = ORA-00901: CREATE 명령어가 부적합합니다
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
 	... 26 more
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.120.202408041450]
-2024-09-12 11:27:49.799 - End idle 1 transactions for oracle_thin-1914e875d2c-497537ff5ab424e1
-2024-09-12 12:36:26.297 - End idle 1 transactions for oracle_thin-1914e875d2c-497537ff5ab424e1
+2024-09-26 16:09:59.392 - SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:615)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:506)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:525)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:977)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4195)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5160)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 933, Position : 28, SQL = CREATE SEQUENCE SEQ_FILE_NO NOCAHS, Original SQL = CREATE SEQUENCE SEQ_FILE_NO NOCAHS, Error Message = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-09-26 17:47:54.506 - Execution context closed (SPRING_KHJ(SPRING1234), 5)
+2024-09-26 17:47:55.035 - DBeaver is stopping
+2024-09-26 17:47:55.036 - Stop instance server
+2024-09-26 17:47:56.056 - DBeaver shutdown completed
